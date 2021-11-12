@@ -13,7 +13,7 @@ export default {
         async connectHandler() {
           // ethers
           try {
-            await initWeb3(this)
+            await initWeb3(/*this*/)
           } catch (e) {
             console.log(e)
           }
